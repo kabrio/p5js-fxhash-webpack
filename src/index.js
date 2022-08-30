@@ -15,6 +15,7 @@ const sketch = (p) => {
   p.draw = () => {
     p.background(features.bg)
     p.fill(features.fg)
+    if (features.fg != features.bg) p.noStroke()
     p.circle(p.width / 2, p.height / 2, p.width / 3)
   }
 

@@ -2,7 +2,7 @@ const path = require('path')
 
 module.exports = {
   mode: 'production',
-  entry: './src/index.js',
+  entry: path.resolve(__dirname, './src/index.js'),
   output: {
     path: path.resolve(__dirname, 'public'),
     filename: 'bundle.js',
@@ -12,9 +12,11 @@ module.exports = {
     maxAssetSize: 1024000,
   },
   devServer: {
-    publicPath: '/public/',
-    compress: true,
     port: 9000,
     hot: true,
+    devMiddleware: {
+      publicPath: '/public/',
+      index: './index.html'
+    }
   },
 }

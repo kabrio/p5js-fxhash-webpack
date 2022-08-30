@@ -1,10 +1,11 @@
 # p5js-fxhash-webpack
 
-Starter project for P5js configured with fxhash snippets + fxhash helper functions and Webpack 4 as a bundler.
+Starter project for P5js configured with fxhash snippets + fxhash helper functions and Webpack 5 as a bundler.
 
 Great and easy way to bootstrap your fxhash P5js project.
 
 To deploy or test (sandbox) on fxhash select index.html + public + static, make zip file and upload.
+Please note that there is an index.html in 'public' as well as the root. Hope to fix this soon.
 
 ## Development
 

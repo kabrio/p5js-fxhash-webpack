@@ -8,7 +8,7 @@ To deploy or test (sandbox) on fxhash select index.html + public + static, make 
 
 ## Development
 
-Clone the project:
+Clone the project in the folder of your choice:
 
 ```bash
 git clone https://github.com/kabrio/p5js-fxhash-webpack.git
